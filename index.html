@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script type="module" crossorigin src="/assets/index-BYNT_VWD.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CQdysnZR.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Simple Website</li>
+          <li>Easy Website</li>
+          <li>Awesome Website</li>
+        </ul>
+        <label><input class="use-metric" type="checkbox" /> Use Metric</label>
+      </nav>
+    </header>
+    <main>
+      <h1 class="title">Weather App</h1>
+      <hr />
+      <div class="sub-title">
+        <form>
+          <fieldset>
+            <legend>Information</legend>
+            <label class="form-label">
+              City<br />
+              <input
+                name="city"
+                class="form-input city-input"
+                type="text"
+                minlength="1"
+                maxlength="169"
+              />
+            </label>
+            <label class="form-label">
+              Region (State/Province/Country)<br /><input
+                name="region"
+                class="form-input regopm-input"
+                type="text"
+                minlength="1"
+                maxlength="169"
+              />
+            </label>
+            <input class="form-submit" type="submit" />
+          </fieldset>
+        </form>
+
+        <section class="city-info">
+          <h2 class="city-info-title">City Information</h2>
+          <ul class="city-info-list">
+            <li class="latitude">Latitude: <b>38.9598</b></li>
+            <li class="longitude">Longitude: <b>-77.3545</b></li>
+            <li class="address">Address: <b>Reston, VA, United States</b></li>
+            <li class="timezone">Time Zone: <b>America/New_York</b></li>
+            <li class="utc-offset">UTC offset: <b>-4.0</b></li>
+          </ul>
+        </section>
+
+        <section class="weather-info"></section>
+
+        <template id="initial-template">
+          <section class="form-day">
+            <h3 class="datetime">2025-06-02</h3>
+            <ul>
+              <li class="tempmin">Low: <b>47.0 F</b></li>
+              <!--fahrenheit vs celsius!-->
+              <li class="temp">Avg: <b>61.7 F</b></li>
+              <li class="tempmax">High: <b>74.0 F</b></li>
+            </ul>
+            <ul>
+              <li class="sunrise">Sunrise: <b>05:45:24</b></li>
+              <li class="sunset">Sunset: <b>20:30:04</b></li>
+            </ul>
+            <ul>
+              <li class="humidity">Humidity: <b>53.5%</b></li>
+              <li class="precip">Precipitation: <b>0.0%</b></li>
+              <li class="windspeed">Windspeed: <b>10.0 mph</b></li>
+            </ul>
+            <ul>
+              <!--erm conversion?-->
+              <li class="pressure">Pressure: <b>1016.7 hPa</b></li>
+              <li class="cloudcover">Cloudcover: <b>32.1%</b></li>
+              <li class="conditions">
+                <b>Partially cloudy</b>
+              </li>
+            </ul>
+          </section>
+        </template>
+      </div>
+    </main>
+  </body>
+</html>
