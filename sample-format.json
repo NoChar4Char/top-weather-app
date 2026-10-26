@@ -1,0 +1,80 @@
+{
+  "queryCost": 168,
+  "latitude": 38.9598,
+  "longitude": -77.3545,
+  "resolvedAddress": "Reston, VA, United States",
+  "address": "Reston,VA",
+  "timezone": "America/New_York",
+  "tzoffset": -4.0,
+
+  "days": [
+    {
+      "datetime": "2025-06-01",
+      "tempmax": 68.0,
+      "tempmin": 44.9,
+      "temp": 58.6,
+      "humidity": 56.4,
+      "precip": 0.0,
+      "windspeed": 14.4,
+      "pressure": 1009.5,
+      "cloudcover": 61.6,
+      "sunrise": "05:45:46",
+      "sunset": "20:29:24",
+      "conditions": "Partially cloudy",
+      "icon": "partly-cloudy-day",
+      "stations": ["KIAD", "KJYO"],
+      "hours": [
+        {
+          "datetime": "00:00:00",
+          "temp": 52.9,
+          "humidity": 59.3,
+          "dew": 39.1,
+          "windspeed": 5.3,
+          "pressure": 1006.3,
+          "cloudcover": 0.0,
+          "conditions": "Clear",
+          "icon": "clear-night"
+        },
+        {
+          "datetime": "12:00:00",
+          "temp": 65.8,
+          "humidity": 43.1,
+          "windspeed": 13.0,
+          "pressure": 1010.5,
+          "conditions": "Partially cloudy",
+          "icon": "partly-cloudy-day"
+        }
+      ]
+    },
+    {
+      "datetime": "2025-06-02",
+      "tempmax": 74.0,
+      "tempmin": 47.0,
+      "temp": 61.7,
+      "humidity": 53.5,
+      "precip": 0.0,
+      "windspeed": 10.0,
+      "pressure": 1016.7,
+      "cloudcover": 32.1,
+      "sunrise": "05:45:24",
+      "sunset": "20:30:04",
+      "conditions": "Partially cloudy",
+      "icon": "partly-cloudy-day"
+    }
+  ],
+
+  "stations": {
+    "KIAD": {
+      "name": "Washington Dulles Intl AP",
+      "latitude": 38.95,
+      "longitude": -77.45,
+      "distance": 8339.0
+    },
+    "KJYO": {
+      "name": "Leesburg Executive Airport",
+      "latitude": 39.08,
+      "longitude": -77.56,
+      "distance": 22247.0
+    }
+  }
+}

@@ -5,5 +5,119 @@
 }
 
 :root {
+  font-family: "Trebuchet MS", sans-serif;
+}
 
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  padding: 20px;
+}
+
+.use-fahrenheit {
+  margin-right: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+form {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: auto;
+  width: 400px;
+  grid-area: form;
+}
+
+legend {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  font-size: 18px;
+}
+
+input[type="text"] {
+  width: 300px;
+  font: inherit;
+}
+
+.form-submit {
+  margin: 50px 10px 10px 10px;
+  padding: 5px;
+  font: inherit;
+}
+
+.city-info {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  display: none;
+  flex-direction: column;
+  gap: 20px;
+  grid-area: info;
+}
+
+.city-info ul {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sub-title {
+  display: grid;
+  grid-template:
+    "form weather" 4fr
+    "info weather" 3fr
+    / 3fr 7fr;
+}
+
+.weather-info {
+  grid-area: weather;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.form-day {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px;
+  margin-right: 10px;
+}
+
+.form-day ul {
+  display: flex;
+  gap: 20px;
+  margin-left: 30px;
+}
+
+#initial-template {
+  display: none;
 }
